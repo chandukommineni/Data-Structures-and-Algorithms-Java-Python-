@@ -1,4 +1,4 @@
-package searching_algo;
+
 import java.util.Scanner;
 public class LinearSearch {
     public static  void Search(int[] arr,int size,int val){
@@ -34,7 +34,7 @@ public class LinearSearch {
         }
 
         while(true){
-            System.out.println("1.enter element to search\n 2.quit\n");
+            System.out.println("1.enter element to search\n 2.quit");
             int choice=sc.nextInt();
             if (choice==1){
                 System.out.println("enter value to search\n");
